@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Java-App
+    env: java
+    buildCommand: "mvn clean package"  # Replace with your build process
+    startCommand: "java -jar target/UVS.war"  # Update with your WAR path
